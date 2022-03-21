@@ -1,0 +1,14 @@
+
+<div  class='container contain shadow'>
+  <img src="../assets/lady.jpg" alt="" width="30%" class="rounded-circle img">
+  <h4  class="text-info tex">Login</h4>
+  <hr>
+  <input type="email" placeholder="Email" class="form-control w-100 shadow" [(ngModel)]="Email"><br>
+  <input type="password" placeholder="Password" class="form-control w-100 shadow" [(ngModel)]="Password"><br>
+
+  <button (click)="addSignIn()" class="btn btn-warning text-white">Summit</button>
+  <br>
+  <a class="text-info px-5" [routerLink]="['/signup']" routerLinkActive="router-link-active" > Not have an account yet?</a>
+
+</div>
+

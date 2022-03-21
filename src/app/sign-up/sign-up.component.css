@@ -1,0 +1,28 @@
+.contain{
+  background-color: rgb(255, 255, 255);
+  width: 35%;
+  height: 570px;
+  /* border-radius: 5px; */
+  margin-top:   8px;
+  }
+/* the input */
+input{
+  margin-left: 8px;
+  margin-top: 7px;
+  /* border-radius: 10px; */
+}
+
+.btn{
+  margin-left: 100px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.text-info{
+  margin-left: 130px;
+  padding-top: 20px;
+}
+.img{
+  margin-left: 150px;
+  margin-top:15px;
+}

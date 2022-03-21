@@ -1,0 +1,10 @@
+<div class="container shadow bg-white">
+<hr>
+  <h4  class="text-info text-center p-3">Deposit Here</h4>
+  <hr>
+  <input type="text" placeholder="Account Name" class="form-control w-100 " [(ngModel)]="AccountName"><br>
+  <input type="email" placeholder="Account Number" class="form-control w-100  " [(ngModel)]="AccountNumber"><br>
+  <input type="password" placeholder="Amount to Deposit" class="form-control w-100 " [(ngModel)]="AmounttoDeposit"><br>
+
+  <button (click)="addDeposit()" class="btn btn-warning ml-5 w-50">Register</button>
+</div>

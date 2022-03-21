@@ -1,0 +1,12 @@
+<div  class='container contain shadow mt-5'>
+ <img src="../assets/lady.jpg" alt="" width="30%" class="rounded-circle img">
+  <h4  class="text-info">Sign Up Here</h4>
+  <hr>
+  <input type="text" placeholder="First Name" class="form-control w-100 shadow" [(ngModel)]="firstName"><br>
+  <input type="text" placeholder="Last Name" class="form-control w-100 shadow" [(ngModel)]="lastName"><br>
+  <input type="email" placeholder="Email" class="form-control w-100 shadow " [(ngModel)]="Email"><br>
+  <input type="password" placeholder="Password" class="form-control w-100 shadow " [(ngModel)]="Password"><br>
+ <button (click)="addSignUp()" class="btn btn-warning">Register</button>
+   <br>
+  <a class="text-info" [routerLink]="['/signin']" routerLinkActive="router-link-active" > Already have an account</a>
+</div>
